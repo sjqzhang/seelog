@@ -32,7 +32,7 @@ import (
 
 // MaxQueueSize is the critical number of messages in the queue that result in an immediate flush.
 const (
-	MaxQueueSize = 10000
+	MaxQueueSize = 100000
 )
 
 type msgQueueItem struct {
